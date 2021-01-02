@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>DVIA &ndash; Parsons School of Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Welcome to Parson's Data Visualization and Information Aesthetics showcase for student work.">
+    <link rel="stylesheet" href="/static/master.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/brands.css">
+    <style media="screen">
+        :root {
+                {
+
+                %~for propName,
+                cssProp in {
+                    backgroundColor: 'background-color',
+                        textColor: 'text-color',
+                        linkColor: 'link-color',
+                        highlightTextColor: 'highlight-text-color',
+                        highlightBackgroundColor: 'highlight-background-color',
+                }
+
+                %
+            }
+
+                {
+                %~with {
+                    prop: site.content.get(propName)
+                }
+
+                %
+            }
+
+                {
+                %~if (prop.notEmpty) %
+            }
+
+            --theme- {
+                    {
+                    cssProp
+                }
+            }
+
+            : {
+                    {
+                    prop.isColor ? prop.toColor: prop.value
+                }
+            }
+
+            ;
+
+                {
+                %~endif %
+            }
+
+                {
+                %~endwith %
+            }
+
+                {
+                %~endfor %
+            }
+
+                {
+                %~if site.textColor.notEmpty %
+            }
+
+            --theme-text-color-05: {
+                    {
+                    site.textColor.toColor.setAlpha(5).value
+                }
+            }
+
+            ;
+
+                {
+                %~endif %
+            }
+        }
+
+    </style>
+</head>
+
+<body class="body lh4 hello">
+
+
+    <header>
+        <div class="py05 sd-p05">
+            <!-- DVIA for dynamic...DVIA interim-->
+            <h1 class="p1"><a id="siteTitle" class="block h1 lh1 fw800 row flex-wrap justify-around" href="/"><span>D</span><span>V</span><span>I</span><span>A</span></a></h1>
+        </div>
+        <aside class="py05 sd-p05">
+            <div class="copy p1">
+                <p>Welcome to Parson's <strong>D</strong>ata <strong>V</strong>isualization and <strong>I</strong>nformation <strong>A</strong>esthetics showcase for student work.</p>
+            </div>
+        </aside>
+        <nav class="py05 sd-p05">
+            <ul class="px075 py1">
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/about"><span>About</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/thomas-ikeda"><span>Thomas Ikeda</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/joe-chung"><span>Joe Chung</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/danerick-peralta"><span>Danerick Peralta</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/zaib-momin"><span>Zaib Momin</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/yizhang-liu-and-yian-feng"><span>Yizhang Liu and Yian Feng</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/olivia-heller"><span>Olivia Heller</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/melissa-lee"><span>Melissa Lee</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/mary-ann-badavi"><span>Mary Ann Badavi</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/jordan-mcrae"><span>Jordan McRae</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/rosa-ng"><span>Rosa Ng</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/alyssa-yu"><span>Alyssa Yu</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/sohee-cho"><span>Sohee Cho</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/peter-vos"><span>Peter Vos</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/xinran-qi"><span>Xinran Qi</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/lina-pineros"><span>Lina Pineros</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main py05 sd-p05">
+
+<div class="sd-grid2 ld-grid3">
+    <article class="p1"><a class="block anchor" href="/thomas-ikeda">
+            <figure>
+                <img class="block w100 maxw" src="/media/pages/thomas-ikeda/1e6f9faf4b-1609539452/image-288x288.png" srcset="/media/pages/thomas-ikeda/1e6f9faf4b-1609539452/image-288x288.png 288w,/media/pages/thomas-ikeda/1e6f9faf4b-1609539452/image-576x576.png 576w" alt="Thomas Ikeda Cover">
+            </figure>
+            <h3 class="mt025 ul:hover">Thomas Ikeda</h3>
+        </a></article>
+    <article class="p1"><a class="block anchor" href="/joe-chung">
+            <figure>
+                <img class="block w100 maxw" src="/media/pages/joe-chung/8ad754d496-1609447858/cube-copy-copy-288x288.jpg" srcset="/media/pages/joe-chung/8ad754d496-1609447858/cube-copy-copy-288x288.jpg 288w,/media/pages/joe-chung/8ad754d496-1609447858/cube-copy-copy-576x576.jpg 576w" alt="Joe Chung Cover">
+            </figure>
+            <h3 class="mt025 ul:hover">Joe Chung</h3>
+        </a></article>
+    <article class="p1"><a class="block anchor" href="/danerick-peralta">
+            <figure>
+                <img class="block w100 maxw" src="/media/pages/danerick-peralta/43b9869d5c-1609451369/dp-vid.gif" alt="Danerick Peralta Cover">
+            </figure>
+            <h3 class="mt025 ul:hover">Danerick Peralta</h3>
+        </a></article>
+    <article class="p1"><a class="block anchor" href="/zaib-momin">
+            <figure>
+                <img class="block w100 maxw" src="/media/pages/zaib-momin/be66f75892-1609447860/777sq-288x288.png" srcset="/media/pages/zaib-momin/be66f75892-1609447860/777sq-288x288.png 288w,/media/pages/zaib-momin/be66f75892-1609447860/777sq-576x576.png 576w" alt="Zaib Momin Cover">
+            </figure>
+            <h3 class="mt025 ul:hover">Zaib Momin</h3>
+        </a></article>
+    <article class="p1"><a class="block anchor" href="/yizhang-liu-and-yian-feng">
+            <figure>
+                <img class="block w100 maxw" src="/media/pages/yizhang-liu-and-yian-feng/7bb45e001b-1609447860/good-day.jpg" alt="Yizhang Liu and Yian Feng Cover">
+            </figure>
+            <h3 class="mt025 ul:hover">Yizhang Liu and Yian Feng</h3>
+        </a></article>
+    <article class="p1"><a class="block anchor" href="/olivia-heller">
+            <figure>
+                <img class="block w100 maxw" src="/media/pages/olivia-heller/6691ff3202-1609447861/data-final-projectimage-05-288x288.png" srcset="/media/pages/olivia-heller/6691ff3202-1609447861/data-final-projectimage-05-288x288.png 288w,/media/pages/olivia-heller/6691ff3202-1609447861/data-final-projectimage-05-576x576.png 576w" alt="Olivia Heller Cover">
+            </figure>
+            <h3 class="mt025 ul:hover">Olivia Heller</h3>
+        </a></article>
+    <article class="p1"><a class="block anchor" href="/melissa-lee">
+            <figure>
+                <img class="block w100 maxw" src="/media/pages/melissa-lee/73dfa57376-1609447860/lee1-288x288.png" srcset="/media/pages/melissa-lee/73dfa57376-1609447860/lee1-288x288.png 288w,/media/pages/melissa-lee/73dfa57376-1609447860/lee1-576x576.png 576w" alt="Melissa Lee Cover">
+            </figure>
+            <h3 class="mt025 ul:hover">Melissa Lee</h3>
+        </a></article>
+    <article class="p1"><a class="block anchor" href="/mary-ann-badavi">
+            <figure>
+                <img class="block w100 maxw" src="/media/pages/mary-ann-badavi/d5db2da44a-1609447862/mary1-288x288.png" srcset="/media/pages/mary-ann-badavi/d5db2da44a-1609447862/mary1-288x288.png 288w,/media/pages/mary-ann-badavi/d5db2da44a-1609447862/mary1-576x576.png 576w" alt="Mary Ann Badavi Cover">
+            </figure>
+            <h3 class="mt025 ul:hover">Mary Ann Badavi</h3>
+        </a></article>
+    <article class="p1"><a class="block anchor" href="/jordan-mcrae">
+            <figure>
+                <img class="block w100 maxw" src="/media/pages/jordan-mcrae/7f6a9cb23d-1609447862/mcrae-sq-288x288.jpg" srcset="/media/pages/jordan-mcrae/7f6a9cb23d-1609447862/mcrae-sq-288x288.jpg 288w,/media/pages/jordan-mcrae/7f6a9cb23d-1609447862/mcrae-sq-576x576.jpg 576w" alt="Jordan McRae Cover">
+            </figure>
+            <h3 class="mt025 ul:hover">Jordan McRae</h3>
+        </a></article>
+    <article class="p1"><a class="block anchor" href="/rosa-ng">
+            <figure>
+                <img class="block w100 maxw" src="/media/pages/rosa-ng/264032c43a-1609447858/figma_mockup_sq.png" alt="Rosa Ng Cover">
+            </figure>
+            <h3 class="mt025 ul:hover">Rosa Ng</h3>
+        </a></article>
+    <article class="p1"><a class="block anchor" href="/alyssa-yu">
+            <figure>
+                <img class="block w100 maxw" src="/media/pages/alyssa-yu/5b3fa00b8f-1609447858/alyssa-288x288.jpg" srcset="/media/pages/alyssa-yu/5b3fa00b8f-1609447858/alyssa-288x288.jpg 288w,/media/pages/alyssa-yu/5b3fa00b8f-1609447858/alyssa-576x576.jpg 576w" alt="Alyssa Yu Cover">
+            </figure>
+            <h3 class="mt025 ul:hover">Alyssa Yu</h3>
+        </a></article>
+    <article class="p1"><a class="block anchor" href="/sohee-cho">
+            <figure>
+                <img class="block w100 maxw" src="/media/pages/sohee-cho/023ba3dda7-1609447858/sohee1-288x288.png" srcset="/media/pages/sohee-cho/023ba3dda7-1609447858/sohee1-288x288.png 288w,/media/pages/sohee-cho/023ba3dda7-1609447858/sohee1-576x576.png 576w" alt="Sohee Cho Cover">
+            </figure>
+            <h3 class="mt025 ul:hover">Sohee Cho</h3>
+        </a></article>
+    <article class="p1"><a class="block anchor" href="/peter-vos">
+            <figure>
+                <img class="block w100 maxw" src="/media/pages/peter-vos/adb1c23ee9-1609447858/manifesto-collage-288x288.jpg" srcset="/media/pages/peter-vos/adb1c23ee9-1609447858/manifesto-collage-288x288.jpg 288w,/media/pages/peter-vos/adb1c23ee9-1609447858/manifesto-collage-576x576.jpg 576w" alt="Peter Vos Cover">
+            </figure>
+            <h3 class="mt025 ul:hover">Peter Vos</h3>
+        </a></article>
+    <article class="p1"><a class="block anchor" href="/xinran-qi">
+            <figure>
+                <img class="block w100 maxw" src="/media/pages/xinran-qi/fec562ece8-1609447858/data-viz-map-animation.gif" alt="Xinran Qi Cover">
+            </figure>
+            <h3 class="mt025 ul:hover">Xinran Qi</h3>
+        </a></article>
+    <article class="p1"><a class="block anchor" href="/lina-pineros">
+            <figure>
+                <img class="block w100 maxw" src="/media/pages/lina-pineros/3f8b9b0ea1-1609447858/zodiac-constellations-288x288.png" srcset="/media/pages/lina-pineros/3f8b9b0ea1-1609447858/zodiac-constellations-288x288.png 288w,/media/pages/lina-pineros/3f8b9b0ea1-1609447858/zodiac-constellations-576x576.png 576w" alt="Lina Pineros Cover">
+            </figure>
+            <h3 class="mt025 ul:hover">Lina Pineros</h3>
+        </a></article>
+</div>
+
+    </main>
+
+    <footer class="py05 sd-p05">
+        <div class="p1 copy">
+            <p>(c) 2021 DVIA</p>
+        </div>
+    </footer>
+
+
+    </script>
+</body>
+
+</html>

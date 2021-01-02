@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Thomas Ikeda &ndash; DVIA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Rising Tides US Exploitation and Neglect of Micronesia">
+    <link rel="stylesheet" href="/static/master.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/brands.css">
+    <style media="screen">
+        :root {
+                {
+
+                %~for propName,
+                cssProp in {
+                    backgroundColor: 'background-color',
+                        textColor: 'text-color',
+                        linkColor: 'link-color',
+                        highlightTextColor: 'highlight-text-color',
+                        highlightBackgroundColor: 'highlight-background-color',
+                }
+
+                %
+            }
+
+                {
+                %~with {
+                    prop: site.content.get(propName)
+                }
+
+                %
+            }
+
+                {
+                %~if (prop.notEmpty) %
+            }
+
+            --theme- {
+                    {
+                    cssProp
+                }
+            }
+
+            : {
+                    {
+                    prop.isColor ? prop.toColor: prop.value
+                }
+            }
+
+            ;
+
+                {
+                %~endif %
+            }
+
+                {
+                %~endwith %
+            }
+
+                {
+                %~endfor %
+            }
+
+                {
+                %~if site.textColor.notEmpty %
+            }
+
+            --theme-text-color-05: {
+                    {
+                    site.textColor.toColor.setAlpha(5).value
+                }
+            }
+
+            ;
+
+                {
+                %~endif %
+            }
+        }
+
+    </style>
+</head>
+
+<body class="body lh4 hello">
+
+
+    <header>
+        <div class="py05 sd-p05">
+            <!-- DVIA for dynamic...DVIA interim-->
+            <h1 class="p1"><a id="siteTitle" class="block h1 lh1 fw800 row flex-wrap justify-around" href="/"><span>D</span><span>V</span><span>I</span><span>A</span></a></h1>
+        </div>
+        <aside class="py05 sd-p05">
+            <div class="copy p1">
+                <p>Welcome to Parson's <strong>D</strong>ata <strong>V</strong>isualization and <strong>I</strong>nformation <strong>A</strong>esthetics showcase for student work.</p>
+            </div>
+        </aside>
+        <nav class="py05 sd-p05">
+            <ul class="px075 py1">
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/about"><span>About</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover" href="/thomas-ikeda"><span class="color-highlight bg-highlight bg-highlight-shadow" >Thomas Ikeda</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/joe-chung"><span>Joe Chung</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/danerick-peralta"><span>Danerick Peralta</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/zaib-momin"><span>Zaib Momin</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/yizhang-liu-and-yian-feng"><span>Yizhang Liu and Yian Feng</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/olivia-heller"><span>Olivia Heller</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/melissa-lee"><span>Melissa Lee</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/mary-ann-badavi"><span>Mary Ann Badavi</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/jordan-mcrae"><span>Jordan McRae</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/rosa-ng"><span>Rosa Ng</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/alyssa-yu"><span>Alyssa Yu</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/sohee-cho"><span>Sohee Cho</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/peter-vos"><span>Peter Vos</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/xinran-qi"><span>Xinran Qi</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/lina-pineros"><span>Lina Pineros</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main py05 sd-p05">
+
+<div class="">
+    <div class="span1 order9">
+
+        <div class="p025">
+
+            <div class="p075">
+                <h1 class="h2 lh2 fw800">Thomas Ikeda</h1>
+            </div>
+
+            <div class="ld-row">
+                <div class="span2">
+                    <div class="p075 copy lh4">
+                        <p><strong>Rising Tides</strong><br />
+<strong>US Exploitation and Neglect of Micronesia</strong></p>
+<p>This project briefly explores a current emmigration crisis in Micronesia, as nearly 1 in 4 citizens of  Palau, the Federated States of Micronesia, and the Marshall Islands no longer live in their respective countries. The relationship between this region of the Pacifc and the United States and the US's exploitation of this region throughout the 20th century serve as context for this crisis. With no signs of this changing as we progress through the 21st century, the future is bleak for Micronesia.</p>
+                    </div>
+                </div>
+                <div class="span1">
+                    <div class="p075 copy lh4">
+                        <dl>
+                            <dt>Website</dt>
+                            <dd><a class="ul" href="https://preview.shorthand.com/GZ6iiSJAXGCWoSpf">https://preview.shorthand.com/GZ6iiSJAXGCWoSpf</a></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="span2">
+        <div class="p1 copy copy--wide lh4">
+            <figure class="image"><img alt="" height="473" src="/media/pages/thomas-ikeda/1e6f9faf4b-1609539452/image-960x.png" srcset="/media/pages/thomas-ikeda/1e6f9faf4b-1609539452/image-320x.png 320w, /media/pages/thomas-ikeda/1e6f9faf4b-1609539452/image-640x.png 640w, /media/pages/thomas-ikeda/1e6f9faf4b-1609539452/image-960x.png 960w, /media/pages/thomas-ikeda/1e6f9faf4b-1609539452/image-1280x.png 1280w" width="960"></figure>
+        </div>
+        <div class="p1 copy copy--wide lh4">
+            <figure class="image"><img alt="" height="473" src="/media/pages/thomas-ikeda/7e29dd718d-1609539452/image-2-960x.png" srcset="/media/pages/thomas-ikeda/7e29dd718d-1609539452/image-2-320x.png 320w, /media/pages/thomas-ikeda/7e29dd718d-1609539452/image-2-640x.png 640w, /media/pages/thomas-ikeda/7e29dd718d-1609539452/image-2-960x.png 960w, /media/pages/thomas-ikeda/7e29dd718d-1609539452/image-2-1280x.png 1280w" width="960"></figure>
+        </div>
+        <div class="p1 copy copy--wide lh4">
+            <figure class="image"><img alt="" height="473" src="/media/pages/thomas-ikeda/27a835e0bb-1609539490/image-3-960x.png" srcset="/media/pages/thomas-ikeda/27a835e0bb-1609539490/image-3-320x.png 320w, /media/pages/thomas-ikeda/27a835e0bb-1609539490/image-3-640x.png 640w, /media/pages/thomas-ikeda/27a835e0bb-1609539490/image-3-960x.png 960w, /media/pages/thomas-ikeda/27a835e0bb-1609539490/image-3-1280x.png 1280w" width="960"></figure>
+        </div>
+
+    </div>
+
+
+</div>
+
+    </main>
+
+    <footer class="py05 sd-p05">
+        <div class="p1 copy">
+            <p>(c) 2021 DVIA</p>
+        </div>
+    </footer>
+
+
+    </script>
+</body>
+
+</html>

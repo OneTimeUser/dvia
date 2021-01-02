@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Yizhang Liu and Yian Feng &ndash; DVIA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sleep Quality Data Visualization">
+    <link rel="stylesheet" href="/static/master.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/brands.css">
+    <style media="screen">
+        :root {
+                {
+
+                %~for propName,
+                cssProp in {
+                    backgroundColor: 'background-color',
+                        textColor: 'text-color',
+                        linkColor: 'link-color',
+                        highlightTextColor: 'highlight-text-color',
+                        highlightBackgroundColor: 'highlight-background-color',
+                }
+
+                %
+            }
+
+                {
+                %~with {
+                    prop: site.content.get(propName)
+                }
+
+                %
+            }
+
+                {
+                %~if (prop.notEmpty) %
+            }
+
+            --theme- {
+                    {
+                    cssProp
+                }
+            }
+
+            : {
+                    {
+                    prop.isColor ? prop.toColor: prop.value
+                }
+            }
+
+            ;
+
+                {
+                %~endif %
+            }
+
+                {
+                %~endwith %
+            }
+
+                {
+                %~endfor %
+            }
+
+                {
+                %~if site.textColor.notEmpty %
+            }
+
+            --theme-text-color-05: {
+                    {
+                    site.textColor.toColor.setAlpha(5).value
+                }
+            }
+
+            ;
+
+                {
+                %~endif %
+            }
+        }
+
+    </style>
+</head>
+
+<body class="body lh4 hello">
+
+
+    <header>
+        <div class="py05 sd-p05">
+            <!-- DVIA for dynamic...DVIA interim-->
+            <h1 class="p1"><a id="siteTitle" class="block h1 lh1 fw800 row flex-wrap justify-around" href="/"><span>D</span><span>V</span><span>I</span><span>A</span></a></h1>
+        </div>
+        <aside class="py05 sd-p05">
+            <div class="copy p1">
+                <p>Welcome to Parson's <strong>D</strong>ata <strong>V</strong>isualization and <strong>I</strong>nformation <strong>A</strong>esthetics showcase for student work.</p>
+            </div>
+        </aside>
+        <nav class="py05 sd-p05">
+            <ul class="px075 py1">
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/about"><span>About</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/thomas-ikeda"><span>Thomas Ikeda</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/joe-chung"><span>Joe Chung</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/danerick-peralta"><span>Danerick Peralta</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/zaib-momin"><span>Zaib Momin</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover" href="/yizhang-liu-and-yian-feng"><span class="color-highlight bg-highlight bg-highlight-shadow" >Yizhang Liu and Yian Feng</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/olivia-heller"><span>Olivia Heller</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/melissa-lee"><span>Melissa Lee</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/mary-ann-badavi"><span>Mary Ann Badavi</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/jordan-mcrae"><span>Jordan McRae</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/rosa-ng"><span>Rosa Ng</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/alyssa-yu"><span>Alyssa Yu</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/sohee-cho"><span>Sohee Cho</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/peter-vos"><span>Peter Vos</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/xinran-qi"><span>Xinran Qi</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/lina-pineros"><span>Lina Pineros</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main py05 sd-p05">
+
+<div class="ld-row">
+    <div class="span1 order9">
+
+        <div class="p025">
+
+            <div class="p075">
+                <h1 class="h2 ld-h3 lh2 fw800">Yizhang Liu and Yian Feng</h1>
+            </div>
+
+            <div class="">
+                <div class="span2">
+                    <div class="p075 copy lh4">
+                        <p><strong>Sleep Quality Data Visualization</strong></p>
+<p>The data vis is to help people understand their sleeping pattern better from the data collected by sleep tracking app. We utilized 3D design tools to generate forms and animations that intuitively represent how your sleep is related to the data.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="span2">
+        <div class="p1 copy lh4">
+            <figure class="image"><img alt="" height="450" src="/media/pages/yizhang-liu-and-yian-feng/ab93aac1a9-1609447861/demo.gif" width="600"></figure>
+        </div>
+        <div class="p1 copy lh4">
+            <figure class="image"><img alt="good day" height="1050" src="/media/pages/yizhang-liu-and-yian-feng/5c9374b1b7-1609447861/good.gif" width="700"><figcaption><p>A Good day</p></figcaption></figure>
+        </div>
+        <div class="p1 copy lh4">
+            <figure class="image"><img alt="reading day" height="1050" src="/media/pages/yizhang-liu-and-yian-feng/c9ccbe9416-1609447859/reading.gif" width="700"><figcaption><p>A Reading day</p></figcaption></figure>
+        </div>
+        <div class="p1 copy lh4">
+            <figure class="image"><img alt="sleep deprivation" height="1050" src="/media/pages/yizhang-liu-and-yian-feng/893a778caf-1609447860/sleep.gif" width="700"><figcaption><p>A Sleep Deprived day</p></figcaption></figure>
+        </div>
+        <div class="p1 copy lh4">
+            <figure class="image"><img alt="Weed day" height="1050" src="/media/pages/yizhang-liu-and-yian-feng/abca482b96-1609447861/weed.gif" width="700"><figcaption><p>A Weed day</p></figcaption></figure>
+        </div>
+
+    </div>
+
+
+</div>
+
+    </main>
+
+    <footer class="py05 sd-p05">
+        <div class="p1 copy">
+            <p>(c) 2021 DVIA</p>
+        </div>
+    </footer>
+
+
+    </script>
+</body>
+
+</html>
