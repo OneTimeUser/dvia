@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Rachel Azevedo &ndash; DVIA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Thy Neighborhood">
+    <link rel="stylesheet" href="/static/master.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/brands.css">
+    <style media="screen">
+        :root {
+                {
+
+                %~for propName,
+                cssProp in {
+                    backgroundColor: 'background-color',
+                        textColor: 'text-color',
+                        linkColor: 'link-color',
+                        highlightTextColor: 'highlight-text-color',
+                        highlightBackgroundColor: 'highlight-background-color',
+                }
+
+                %
+            }
+
+                {
+                %~with {
+                    prop: site.content.get(propName)
+                }
+
+                %
+            }
+
+                {
+                %~if (prop.notEmpty) %
+            }
+
+            --theme- {
+                    {
+                    cssProp
+                }
+            }
+
+            : {
+                    {
+                    prop.isColor ? prop.toColor: prop.value
+                }
+            }
+
+            ;
+
+                {
+                %~endif %
+            }
+
+                {
+                %~endwith %
+            }
+
+                {
+                %~endfor %
+            }
+
+                {
+                %~if site.textColor.notEmpty %
+            }
+
+            --theme-text-color-05: {
+                    {
+                    site.textColor.toColor.setAlpha(5).value
+                }
+            }
+
+            ;
+
+                {
+                %~endif %
+            }
+        }
+
+    </style>
+</head>
+
+<body class="body lh4 hello">
+
+
+    <header>
+        <div class="py05 sd-p05">
+            <!-- DVIA for dynamic...DVIA interim-->
+            <h1 class="p1"><a id="siteTitle" class="block h1 lh1 fw800 row flex-wrap justify-around" href="/"><span>D</span><span>V</span><span>I</span><span>A</span></a></h1>
+        </div>
+        <aside class="py05 sd-p05">
+            <div class="copy p1">
+                <p>Welcome to Parson's <strong>D</strong>ata <strong>V</strong>isualization and <strong>I</strong>nformation <strong>A</strong>esthetics showcase for student work.</p>
+            </div>
+        </aside>
+        <nav class="py05 sd-p05">
+            <ul class="px075 py1">
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/about"><span>About</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover" href="/rachel-azevedo"><span class="color-highlight bg-highlight bg-highlight-shadow" >Rachel Azevedo</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/thomas-ikeda"><span>Thomas Ikeda</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/joe-chung"><span>Joe Chung</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/danerick-peralta"><span>Danerick Peralta</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/zaib-momin"><span>Zaib Momin</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/yizhang-liu-and-yian-feng"><span>Yizhang Liu and Yian Feng</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/olivia-heller"><span>Olivia Heller</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/melissa-lee"><span>Melissa Lee</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/mary-ann-badavi"><span>Mary Ann Badavi</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/jordan-mcrae"><span>Jordan McRae</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/rosa-ng"><span>Rosa Ng</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/alyssa-yu"><span>Alyssa Yu</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/sohee-cho"><span>Sohee Cho</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/peter-vos"><span>Peter Vos</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/xinran-qi"><span>Xinran Qi</span></a></li>
+                <li class="px0125"><a class="inlineblock px0125 ul:hover color-link:hover" href="/lina-pineros"><span>Lina Pineros</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main py05 sd-p05">
+
+<div class="ld-row">
+    <div class="span1 order9">
+
+        <div class="p025">
+
+            <div class="p075">
+                <h1 class="h2 ld-h3 lh2 fw800">Rachel Azevedo</h1>
+            </div>
+
+            <div class="">
+                <div class="span2">
+                    <div class="p075 copy lh4">
+                        <p><strong>Thy Neighborhood</strong></p>
+<p>The word "favela" in Portuguese was originated from the favela-branca plant, a typical tree of the caatingas ecosystem present in the Brazilian state of Bahia, where in the municipality of Monte Santo, exists a hill covered by this plant that was called Morro da Favella and that was base of a battle that took place in Brazil between 1896 and 1897 (Guerra de Canudos). As the guerrilla fighters left Bahia to return to the, at the time, capital of Rio de Janeiro, they settled in an area called Morro da Providência that, because of the presence of the combatants, soon was also known as Morro da Favela.</p>
+<p>The importance of that region was such that, starting in 1920, the work favela was now used not only to call the Morro da Favella per se, but also every region in the city that was formed by illegal conglomerations, normally up the hills of the city. Fast forward to nowadays and favela is a work known globally, with popular songs, movies, international attention, tourists tours. With its problems and its glories. But most of all, full of stories. So, know your Thy Neighborhood.</p>
+<p>For more information on the making of this project, please click <a href="https://www.notion.so/Presentation-Dec-14-3854a0bfbb0a43708350ea55ed4cabf9">here</a>.</p>
+                    </div>
+                </div>
+                <div class="span1">
+                    <div class="p075 copy lh4">
+                        <dl>
+                            <dt>Website</dt>
+                            <dd><a class="ul" href="https://www.instagram.com/thy_neighborhood/">https://www.instagram.com/thy_neighborhood/</a></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="span2">
+        <div class="p1 copy lh4">
+            <figure class="image"><img alt="" height="600" src="/media/pages/rachel-azevedo/2c8b3c08b6-1609780644/azevedo1-960x.jpg" srcset="/media/pages/rachel-azevedo/2c8b3c08b6-1609780644/azevedo1-320x.jpg 320w, /media/pages/rachel-azevedo/2c8b3c08b6-1609780644/azevedo1-640x.jpg 640w, /media/pages/rachel-azevedo/2c8b3c08b6-1609780644/azevedo1-960x.jpg 960w, /media/pages/rachel-azevedo/2c8b3c08b6-1609780644/azevedo1-1280x.jpg 1280w" width="600"></figure>
+        </div>
+        <div class="p1 copy lh4">
+            <figure class="image"><img alt="" height="600" src="/media/pages/rachel-azevedo/343d5e896b-1609780645/azevedo2-960x.jpg" srcset="/media/pages/rachel-azevedo/343d5e896b-1609780645/azevedo2-320x.jpg 320w, /media/pages/rachel-azevedo/343d5e896b-1609780645/azevedo2-640x.jpg 640w, /media/pages/rachel-azevedo/343d5e896b-1609780645/azevedo2-960x.jpg 960w, /media/pages/rachel-azevedo/343d5e896b-1609780645/azevedo2-1280x.jpg 1280w" width="600"></figure>
+        </div>
+        <div class="p1 copy lh4">
+            <figure class="image"><img alt="" height="600" src="/media/pages/rachel-azevedo/f56168a8ce-1609780645/azevedo3-960x.jpg" srcset="/media/pages/rachel-azevedo/f56168a8ce-1609780645/azevedo3-320x.jpg 320w, /media/pages/rachel-azevedo/f56168a8ce-1609780645/azevedo3-640x.jpg 640w, /media/pages/rachel-azevedo/f56168a8ce-1609780645/azevedo3-960x.jpg 960w, /media/pages/rachel-azevedo/f56168a8ce-1609780645/azevedo3-1280x.jpg 1280w" width="600"></figure>
+        </div>
+        <div class="p1 copy lh4">
+            <figure class="image"><img alt="" height="600" src="/media/pages/rachel-azevedo/cbdad0939c-1609780645/azevedo4-960x.jpg" srcset="/media/pages/rachel-azevedo/cbdad0939c-1609780645/azevedo4-320x.jpg 320w, /media/pages/rachel-azevedo/cbdad0939c-1609780645/azevedo4-640x.jpg 640w, /media/pages/rachel-azevedo/cbdad0939c-1609780645/azevedo4-960x.jpg 960w, /media/pages/rachel-azevedo/cbdad0939c-1609780645/azevedo4-1280x.jpg 1280w" width="600"></figure>
+        </div>
+        <div class="p1 copy lh4">
+            <figure class="image"><img alt="" height="823" src="/media/pages/rachel-azevedo/3bddac1832-1609779564/azevedo.gif" width="400"></figure>
+        </div>
+
+    </div>
+
+
+</div>
+
+    </main>
+
+    <footer class="py05 sd-p05">
+        <div class="p1 copy">
+            <p>(c) 2021 DVIA</p>
+        </div>
+    </footer>
+
+
+    </script>
+</body>
+
+</html>
